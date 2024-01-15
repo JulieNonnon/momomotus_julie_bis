@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #2B2B2B;
+    color: white;
+}
+
+main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+h1, h2 {
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+p, button {
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,6 @@
+<div class="flexHeader">
+      <p>Prêt.e {{ prenom }} ?</p>
+      <h2>MOMOMOTUS</h2>
+      <button class="rulesInput" (click)="openModaleRules()">?</button>
+      <app-modale-rules [isModalVisible]="modalVisible" (closeModalEvent)="closeModaleRules()"></app-modale-rules>
+</div>

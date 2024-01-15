@@ -1,0 +1,5 @@
+<p> Pour commencer, quel est ton prénom ?</p>
+<div class="nameInput">
+  <input type="text" id="prenom" [(ngModel)]="prenom">
+  <button (click)="registerName()" [disabled]="prenom === ''">C'est tipar</button>
+</div>
