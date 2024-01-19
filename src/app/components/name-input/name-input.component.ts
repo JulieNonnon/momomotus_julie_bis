@@ -28,5 +28,10 @@ export class NameInputComponent {
     }
 
   }
+
+  isValidInput(): boolean {
+    // Utiliser trim() pour supprimer les espaces avant et après le nom
+    return this.prenom.trim() !== '';
+  }
   
 }
